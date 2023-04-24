@@ -40,6 +40,8 @@ class SplashActivity : AppCompatActivity() {
             alertDialog.show()
 
         } else {
+
+
             handler = Handler()
             handler.postDelayed({
                 val intent = Intent(applicationContext, MainActivity::class.java)
